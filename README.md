@@ -172,3 +172,14 @@ module.exports = {
 ```
 
 Now running `npm test run` will run our tests and successfully.
+
+
+Further can even change _rectangle.test.js_ to use ES6 imports
+```
+import {Rectangle} from "./rectangle";
+
+test('1 X 1 Rectangle area is 1', () => {
+  const rectangle = new Rectangle(1, 1);
+  expect(rectangle.area()).toBe(1);
+});
+```

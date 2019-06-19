@@ -1,4 +1,4 @@
-const Rectangle = require('./Rectangle').Rectangle;
+import {Rectangle} from "./rectangle";
 
 test('1 X 1 Rectangle area is 1', () => {
   const rectangle = new Rectangle(1, 1);
