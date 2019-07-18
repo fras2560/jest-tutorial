@@ -7,7 +7,7 @@ A tutorial for setting up jest testing to use ES6 modules.
 TODO ??
 ```
 npm install
-npm test run
+npm run test
 ```
 should run all the tests in the command line with them passing
 
@@ -171,7 +171,7 @@ module.exports = {
 };
 ```
 
-Now running `npm test run` will run our tests and successfully.
+Now running `npm run test` will run our tests and successfully.
 
 
 Further can even change _rectangle.test.js_ to use ES6 imports
