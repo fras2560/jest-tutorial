@@ -4,7 +4,7 @@ A tutorial for setting up jest testing to use ES6 modules.
 # webpack-tutorial
 
 ## TLDR
-TODO ??
+
 ```
 npm install
 npm run test
